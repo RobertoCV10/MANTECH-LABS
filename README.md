@@ -73,7 +73,7 @@ Ver [Releases](https://github.com/RobertoCV10/MANTECH-LABS/releases) para descar
 
 ### Configuración
 
-```bash
+``bash
 # Clonar repo
 git clone https://github.com/RobertoCV10/MANTECH-LABS.git
 cd MANTECH-LABS
@@ -86,3 +86,33 @@ npm run dev
 
 # Build producción
 npm run build:win
+
+### Scripts Disponibles
+Comando	Descripción
+npm run dev	----- Modo desarrollo
+npm run build	----- Build Vite
+npm run build:win	----- Build Windows (.exe)
+npm run lint	----- Verificar código
+npm run typecheck	----- Verificar tipos
+
+---
+
+##  Estructura del Proyecto
+MANTECH-LABS/
+├── src/
+│   ├── main/           # Proceso principal (Electron)
+│   │   ├── ipc/       # Handlers IPC
+│   │   ├── services/  # Servicios del sistema
+│   │   └── utils/     # Utilerias PowerShell
+│   ├── preload/      # Bridge seguro
+│   └── renderer/     # Interfaz React
+│       └── src/
+│           ├── components/
+│           ├── views/
+│           ├── hooks/
+│           └── i18n/
+├── resources/        # Recursos (iconos, binarios)
+└── dist/            # Build de salida
+
+# DISCLAIMER
+Esta aplicación modifica configuraciones del sistema para optimalización. Recomeindo crear RESPALDO antes de usar el Modo Gaming (el app ya crea uno, se recuopera al restablecer de fabrica el programa en configuracion). El desarrollador no se hacen responsables de daños al sistema.
