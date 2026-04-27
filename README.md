@@ -1,34 +1,118 @@
-# pc
+#  MantechLabs
 
-An Electron application with React and TypeScript
+**Aplicación de escritorio para optimización de Windows con modo Gaming y mantenimiento del sistema.**
 
-## Recommended IDE Setup
+![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat&logo=windows)
+![Electron](https://img.shields.io/badge/Electron-39.2.6-47848BF?style=flat&logo=electron)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-0.8.0-orange)
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+---
 
-## Project Setup
+##  Características
 
-### Install
+###  Modo Gaming
+- Plan de energía Ultimate Performance
+- Deshabilitar telemetría de Windows
+- Silenciar notificaciones (Focus Assist)
+- Game Mode optimizado
 
-```bash
-$ npm install
-```
+###  Optimización de RAM
+- Limpiar Standby List
+- Reducir Working Set de procesos
+- Monitoreo en tiempo real
 
-### Development
+###  Limpieza de Archivos Temporales
+- User Temp (`%TEMP%`)
+- Windows Temp
+- Prefetch
+- Windows Update Cache
 
-```bash
-$ npm run dev
-```
+###  Mantenimiento del Sistema
+- Checklist interactivo
+- Seguimiento de progreso por fecha
+- Notificaciones de vencimiento
 
-### Build
+###  Monitoreo en Tiempo Real
+- CPU (uso y temperatura)
+- RAM (active, available, cache, working set)
+- Disco (uso, lectura/escritura, SMART)
 
-```bash
-# For windows
-$ npm run build:win
+---
 
-# For macOS
-$ npm run build:mac
+##  Tecnologías
 
-# For Linux
-$ npm run build:linux
-```
+| Capa | Tecnología |
+|------|------------|
+| Framework | Electron 39 + Electron-Vite |
+| Frontend | React 19 + TypeScript |
+| UI | Material UI 7 + Emotion |
+| Gráficos | Lucide React + Recharts |
+| Sistema | PowerShell + Node.js |
+| Datos | i18next (ES/EN) |
+| Actualizaciones | electron-updater |
+
+---
+
+##  Requisitos del Sistema
+
+- **OS:** Windows 10/11 (64-bit)
+- **RAM:** 4 GB mínimo
+- **Espacio:** 300 MB
+- **Permisos:** Administrador (para algunas funciones)
+
+---
+
+##  Descarga
+
+Ver [Releases](https://github.com/RobertoCV10/MANTECH-LABS/releases) para descargar el installer.
+
+---
+
+##  Desarrollo
+
+### Configuración
+
+``bash
+# Clonar repo
+git clone https://github.com/RobertoCV10/MANTECH-LABS.git
+cd MANTECH-LABS
+
+# Instalar dependencias
+npm install
+
+# Desarrollo
+npm run dev
+
+# Build producción
+npm run build:win
+
+### Scripts Disponibles
+Comando	Descripción
+npm run dev	----- Modo desarrollo
+npm run build	----- Build Vite
+npm run build:win	----- Build Windows (.exe)
+npm run lint	----- Verificar código
+npm run typecheck	----- Verificar tipos
+
+---
+
+##  Estructura del Proyecto
+MANTECH-LABS/
+├── src/
+│   ├── main/           # Proceso principal (Electron)
+│   │   ├── ipc/       # Handlers IPC
+│   │   ├── services/  # Servicios del sistema
+│   │   └── utils/     # Utilerias PowerShell
+│   ├── preload/      # Bridge seguro
+│   └── renderer/     # Interfaz React
+│       └── src/
+│           ├── components/
+│           ├── views/
+│           ├── hooks/
+│           └── i18n/
+├── resources/        # Recursos (iconos, binarios)
+└── dist/            # Build de salida
+
+# DISCLAIMER
+Esta aplicación modifica configuraciones del sistema para optimalización. Recomeindo crear RESPALDO antes de usar el Modo Gaming (el app ya crea uno, se recuopera al restablecer de fabrica el programa en configuracion). El desarrollador no se hacen responsables de daños al sistema.
