@@ -1,0 +1,241 @@
+{
+  "mantenimientos": [
+    {
+      "id": "limpieza-basica",
+      "nombre": "maintenance.tasks.limpieza_basica.nombre",
+      "descripcion": "maintenance.tasks.limpieza_basica.descripcion",
+      "frecuencia": "maintenance.tasks.limpieza_basica.frecuencia",
+      "nivel": "facil",
+      "advertencias": [
+        "maintenance.tasks.limpieza_basica.advertencias.0",
+        "maintenance.tasks.limpieza_basica.advertencias.1",
+        "maintenance.tasks.limpieza_basica.advertencias.2"
+      ],
+      "checklist": [
+        "maintenance.tasks.limpieza_basica.checklist.0",
+        "maintenance.tasks.limpieza_basica.checklist.1",
+        "maintenance.tasks.limpieza_basica.checklist.2",
+        "maintenance.tasks.limpieza_basica.checklist.3",
+        "maintenance.tasks.limpieza_basica.checklist.4"
+      ],
+      "videos": [
+        {
+          "titulo": "maintenance.tasks.limpieza_basica.videos.0.titulo",
+          "video_id": "_T9lk42eNHg",
+          "start_time": "0:20",
+          "end_time": "3:36",
+          "youtube_search_query": "como limpiar monitor pc correctamente tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_basica.videos.1.titulo",
+          "video_id": "tNa_-mg2_BM",
+          "start_time": "0:38",
+          "end_time": "7:36",
+          "youtube_search_query": "limpiar laptop externa pantalla tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_basica.videos.2.titulo",
+          "video_id": "wl7ushbXZ74",
+          "youtube_search_query": "limpiar mousepad tela tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_basica.videos.3.titulo",
+          "video_id": "DwdyG7UxZNw",
+          "start_time": "9:24",
+          "end_time": "12:24",
+          "youtube_search_query": "limpieza segura de teclado y mouse tutorial"
+        }
+      ]
+    },
+    {
+      "id": "limpieza-interna",
+      "nombre": "maintenance.tasks.limpieza_interna.nombre",
+      "descripcion": "maintenance.tasks.limpieza_interna.descripcion",
+      "frecuencia": "maintenance.tasks.limpieza_interna.frecuencia",
+      "nivel": "medio",
+      "advertencias": [
+        "maintenance.tasks.limpieza_interna.advertencias.0",
+        "maintenance.tasks.limpieza_interna.advertencias.1",
+        "maintenance.tasks.limpieza_interna.advertencias.2",
+        "maintenance.tasks.limpieza_interna.advertencias.3"
+      ],
+      "checklist": [
+        "maintenance.tasks.limpieza_interna.checklist.0",
+        "maintenance.tasks.limpieza_interna.checklist.1",
+        "maintenance.tasks.limpieza_interna.checklist.2",
+        "maintenance.tasks.limpieza_interna.checklist.3",
+        "maintenance.tasks.limpieza_interna.checklist.4",
+        "maintenance.tasks.limpieza_interna.checklist.5",
+        "maintenance.tasks.limpieza_interna.checklist.6",
+        "maintenance.tasks.limpieza_interna.checklist.7",
+        "maintenance.tasks.limpieza_interna.checklist.8",
+        "maintenance.tasks.limpieza_interna.checklist.9"
+      ],
+      "videos": [
+        {
+          "titulo": "maintenance.tasks.limpieza_interna.videos.0.titulo",
+          "video_id": "1RkR0RvXEKU",
+          "start_time": "0:38",
+          "end_time": "3:35",
+          "youtube_search_query": "limpieza interna pc escritorio polvo"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_interna.videos.1.titulo",
+          "video_id": "J1KlRklVGMk",
+          "start_time": "0:37",
+          "end_time": "7:58",
+          "youtube_search_query": "limpieza interna laptop polvo"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_interna.videos.2.titulo",
+          "video_id": "A42-L_PfuCw",
+          "youtube_search_query": "mantenimiento preventivo pc completo interno"
+        },
+        {
+          "titulo": "maintenance.tasks.limpieza_interna.videos.3.titulo",
+          "video_id": "kPFJNYo_Ka8",
+          "start_time": "0:00",
+          "end_time": "1:30",
+          "youtube_search_query": "limpiar correctamente aire comprimido tutorial"
+        }
+      ]
+    },
+    {
+      "id": "pasta-termica",
+      "nombre": "maintenance.tasks.pasta_termica.nombre",
+      "descripcion": "maintenance.tasks.pasta_termica.descripcion",
+      "frecuencia": "maintenance.tasks.pasta_termica.frecuencia",
+      "nivel": "dificil",
+      "advertencias": [
+        "maintenance.tasks.pasta_termica.advertencias.0",
+        "maintenance.tasks.pasta_termica.advertencias.1",
+        "maintenance.tasks.pasta_termica.advertencias.2",
+        "maintenance.tasks.pasta_termica.advertencias.3",
+        "maintenance.tasks.pasta_termica.advertencias.4"
+      ],
+      "checklist": [
+        "maintenance.tasks.pasta_termica.checklist.0",
+        "maintenance.tasks.pasta_termica.checklist.1",
+        "maintenance.tasks.pasta_termica.checklist.2",
+        "maintenance.tasks.pasta_termica.checklist.3",
+        "maintenance.tasks.pasta_termica.checklist.4",
+        "maintenance.tasks.pasta_termica.checklist.5",
+        "maintenance.tasks.pasta_termica.checklist.6",
+        "maintenance.tasks.pasta_termica.checklist.7",
+        "maintenance.tasks.pasta_termica.checklist.8",
+        "maintenance.tasks.pasta_termica.checklist.9"
+      ],
+      "videos": [
+        {
+          "titulo": "maintenance.tasks.pasta_termica.videos.0.titulo",
+          "video_id": "Sog0M9OrlME",
+          "start_time": "0:00",
+          "end_time": "4:33",
+          "youtube_search_query": "como aplicar pasta termica refigeracion all in one tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.pasta_termica.videos.1.titulo",
+          "video_id": "FwpHbNS4suQ",
+          "start_time": "0:21",
+          "end_time": "5:30",
+          "youtube_search_query": "como aplicar pasta termica cpu ventilador tradicional tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.pasta_termica.videos.2.titulo",
+          "video_id": "IWHtIoWJ3ps",
+          "start_time": "0:27",
+          "end_time": "6:07",
+          "youtube_search_query": "como aplicar pasta termica laptop tutorial"
+        }
+      ]
+    },
+    {
+      "id": "optimizacion-software",
+      "nombre": "maintenance.tasks.optimizacion_software.nombre",
+      "descripcion": "maintenance.tasks.optimizacion_software.descripcion",
+      "frecuencia": "maintenance.tasks.optimizacion_software.frecuencia",
+      "nivel": "facil",
+      "advertencias": [
+        "maintenance.tasks.optimizacion_software.advertencias.0",
+        "maintenance.tasks.optimizacion_software.advertencias.1",
+        "maintenance.tasks.optimizacion_software.advertencias.2"
+      ],
+      "checklist": [
+        "maintenance.tasks.optimizacion_software.checklist.0",
+        "maintenance.tasks.optimizacion_software.checklist.1",
+        "maintenance.tasks.optimizacion_software.checklist.2",
+        "maintenance.tasks.optimizacion_software.checklist.3",
+        "maintenance.tasks.optimizacion_software.checklist.4",
+        "maintenance.tasks.optimizacion_software.checklist.5",
+        "maintenance.tasks.optimizacion_software.checklist.6",
+        "maintenance.tasks.optimizacion_software.checklist.7"
+      ],
+      "videos": [
+        {
+          "titulo": "maintenance.tasks.optimizacion_software.videos.0.titulo",
+          "video_id": "3VV9okffK9M",
+          "start_time": "1:08",
+          "end_time": "7:44",
+          "youtube_search_query": "optimizar pc con INTEL tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.optimizacion_software.videos.1.titulo",
+          "video_id": "HgBt9Y9aNk8",
+          "start_time": "1:08",
+          "end_time": "26:19",
+          "youtube_search_query": "optimizar pc con AMD tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.optimizacion_software.videos.2.titulo",
+          "video_id": "5mtCUTUNzs0",
+          "start_time": "4:10",
+          "end_time": "10:36",
+          "youtube_search_query": "optimizar pc con NVIDIA tutorial"
+        }
+      ]
+    },
+    {
+      "id": "backup-datos",
+      "nombre": "maintenance.tasks.backup_datos.nombre",
+      "descripcion": "maintenance.tasks.backup_datos.descripcion",
+      "frecuencia": "maintenance.tasks.backup_datos.frecuencia",
+      "nivel": "facil",
+      "advertencias": [
+        "maintenance.tasks.backup_datos.advertencias.0",
+        "maintenance.tasks.backup_datos.advertencias.1",
+        "maintenance.tasks.backup_datos.advertencias.2"
+      ],
+      "checklist": [
+        "maintenance.tasks.backup_datos.checklist.0",
+        "maintenance.tasks.backup_datos.checklist.1",
+        "maintenance.tasks.backup_datos.checklist.2",
+        "maintenance.tasks.backup_datos.checklist.3",
+        "maintenance.tasks.backup_datos.checklist.4",
+        "maintenance.tasks.backup_datos.checklist.5",
+        "maintenance.tasks.backup_datos.checklist.6"
+      ],
+      "videos": [
+        {
+          "titulo": "maintenance.tasks.backup_datos.videos.0.titulo",
+          "video_id": "QrKeFT-F718",
+          "youtube_search_query": "como hacer backup con disco externo tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.backup_datos.videos.1.titulo",
+          "video_id": "lWuEIP2HShU",
+          "youtube_search_query": "mejor metodo backup windows image 10 11 tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.backup_datos.videos.2.titulo",
+          "video_id": "CJIYR2gD6xs",
+          "youtube_search_query": "como hacer backup archivos Google drive tutorial"
+        },
+        {
+          "titulo": "maintenance.tasks.backup_datos.videos.3.titulo",
+          "video_id": "pLz0DWcA0jE",
+          "youtube_search_query": "como hacer backup archivos microsoft onedrive tutorial"
+        }
+      ]
+    }
+  ]
+}

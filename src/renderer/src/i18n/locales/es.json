@@ -1,0 +1,577 @@
+{
+  "sidebar": {
+    "home": "Inicio",
+    "cpu": "Procesador",
+    "ram": "Memoria RAM",
+    "disk": "Disco Duro",
+    "optimize": "Optimizar",
+    "maintenance": "Mantenimiento",
+    "settings": "Configuración"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "reset": "Reiniciar",
+    "loading": "Cargando...",
+    "processing": "PROCESANDO...",
+    "admin_required": "Para visualizar la temperatura de los discos, es necesario reiniciar en modo administrador."
+  },
+  "settings": {
+    "title": "Configuracion",
+    "appearance": {
+      "title": "Apariencia",
+      "subtitle": "Preferencias visuales",
+      "dark_mode": "Modo oscuro",
+      "light_mode": "Modo claro",
+      "language": "Idioma"
+    },
+    "permissions": {
+      "title": "Permisos del Sistema",
+      "description": "Configura los privilegios de ejecucion para habilitar funciones avanzadas de hardware.",
+      "button": "Reiniciar en modo administrador"
+    },
+    "about": {
+      "title": "Acerca de",
+      "subtitle": "Informacion de la version y creditos",
+      "see_details": "Ver detalles",
+      "dialog_title": "Acerca de la Aplicacion",
+      "author": "Desarrollado por Roberto Coria Vargas.",
+      "linkedin": "LinkedIn Perfil",
+      "portfolio": "Portafolio Personal",
+      "github": "GitHub Profile"
+    },
+    "maintenance_reset": {
+      "title": "ADVERTENCIA CRITICA",
+      "description": "Estas a punto de reiniciar TODOS los protocolos de mantenimiento.",
+      "confirm": "SI, REINICIAR TODO",
+      "reseting": "RESETEANDO...",
+      "items": {
+        "completion_dates": "Todas las fechas de completacion",
+        "checklist_progress": "Todo el progreso de los checklists",
+        "history": "El historial de mantenimientos realizados"
+      }
+    },
+    "stats_reset": {
+      "title": "REINICIAR ESTADISTICAS",
+      "description": "Estas seguro de reiniciar las estadisticas seleccionadas?",
+      "confirm": "SI, REINICIAR",
+      "reseting": "REINICIANDO...",
+      "ram_saved": "Memoria RAM Liberada",
+      "temp_cleaned": "Archivos Temporales"
+    },
+    "backup_create": {
+      "title": "CREAR NUEVO BACKUP ORIGINAL",
+      "description": "El backup original actual sera reemplazado por los ajustes actuales de Windows.",
+      "confirm": "CREAR BACKUP",
+      "creating": "CREANDO...",
+      "detail": "Este backup se usara para restaurar los ajustes originales de Windows cuando desactives el modo gaming."
+    },
+    "factory_reset": {
+      "title": "RESTABLECER VALORES DE FABRICA",
+      "description": "Se aplicaran los siguientes cambios:",
+      "confirm": "SI, REINICIAR",
+      "reseting": "REINICIANDO...",
+      "items": {
+        "restore_config": "Restaurar configuracion desde backup maestro",
+        "sync_backup": "Sincronizar backup original con maestro",
+        "remove_presets": "Elimina todos los presets de gaming",
+        "reset_progress": "Reiniciar progreso de mantenimiento",
+        "reset_stats": "Reiniciar estadisticas"
+      }
+    },
+    "success": "Operacion completada correctamente",
+    "close": "CERRAR",
+    "dialog": {
+      "cancel": "CANCELAR",
+      "processing": "PROCESANDO..."
+    },
+    "backup_section": {
+      "title": "Modo Gaming - Backup Original",
+      "description": "El backup original se usa para restaurar los ajustes de Windows cuando se desactiva el modo gaming.",
+      "original_backup": "Backup Original del Sistema",
+      "backup_detail": "Este backup contiene el estado original de Windows antes de aplicar cualquier modificacion. Se utiliza al quitar el modo gaming para restaurar los valores previos.",
+      "important": "IMPORTANTE",
+      "warning": "Al crear un nuevo backup original, el anterior sera reemplazado. Asegurate de que los ajustes actuales de Windows son los que deseas guardar.",
+      "create_loading": "Creando backup...",
+      "create_button": "Crear nuevo backup original"
+    },
+    "factory_section": {
+      "title": "Reset de Fabrica",
+      "description": "Restaura la aplicacion y Windows a su estado de fabrica. Se aplicaran los valores del backup maestro.",
+      "warning": "ADVERTENCIA CRITICA",
+      "warning_detail": "Esta accion no se puede deshacer. Se eliminara todo el progreso y configuraciones personalizadas.",
+      "button": "Restablecer Valores de Fabrica"
+    },
+    "stats_section": {
+      "title": "Reiniciar Estadisticas",
+      "description": "Selecciona que estadisticas deseas reiniciar a cero:",
+      "ram_saved": "Memoria RAM Liberada",
+      "temp_cleaned": "Archivos Temporales Limpiados",
+      "button": "Reiniciar Seleccionadas"
+    },
+    "maintenance_section": {
+      "title": "Mantenimiento de Datos",
+      "description": "Gestiona el historial de protocolos de mantenimiento completados",
+      "warning": "ADVERTENCIA",
+      "warning_detail": "Esta accion eliminara todas las fechas de completacion y el progreso de los checklists. Los protocolos vuelven a su estado inicial pendiente.",
+      "button": "Reiniciar Todos los Protocolos"
+    }
+  },
+  "temp": {
+    "storage_analysis": "ANALISIS DE ALMACENAMIENTO",
+    "cleaning": "Limpiando...",
+    "clean_button": "Limpiar",
+    "no_junk": "Sin basura detectada",
+    "saved_registry": "GB guardados en registro",
+    "cleaning_complete": "Limpieza completada",
+    "permissions_denied": "Permisos denegados en:",
+    "folders": {
+      "system_temp": "Temp de Sistema",
+      "prefetch": "Prefetch",
+      "update_cache": "Cache Update"
+    },
+    "target_labels": {
+      "user_temp": "Temp Usuario",
+      "system_temp": "Temp Sistema",
+      "prefetch": "Prefetch",
+      "update_cache": "Cache Update"
+    },
+    "clean_targets": "OBJETIVOS DE LIMPIEZA",
+    "requires_elevation": "REQUIERE ELEVACION",
+    "permission_request": "Se solicitara permisos para procesar:",
+    "scan_panel": {
+      "scan_title": "Escaneo de Basura",
+      "scan_description": "Calcula el espacio recuperable.",
+      "recoverable": "GB recuperables",
+      "analyzing": "Analizando...",
+      "updated": "Actualizado",
+      "scan_button": "Escanear"
+    }
+  },
+  "gaming": {
+    "ultraPower": {
+      "label": "Plan de Maximo Rendimiento",
+      "desc": "Fuerza al CPU a mantener frecuencias altas sin throttling.",
+      "tooltip": "Activa el plan Ultimate Performance de Windows. Consume mas energia."
+    },
+    "disableWinTelemetry": {
+      "label": "Desactivar Telemetria",
+      "desc": "Suspende DiagTrack y dmwappushservice en segundo plano.",
+      "tooltip": "Detiene servicios de recoleccion de datos de Windows. Se restaura al cerrar."
+    },
+    "silenceNotifications": {
+      "label": "Modo Enfoque Critico",
+      "desc": "Suprime notificaciones y ventanas emergentes durante el juego.",
+      "tooltip": "Activa Focus Assist nivel maximo. Solo alarmas pasan."
+    },
+    "gameMode": {
+      "label": "Game Mode de Windows",
+      "desc": "Optimiza el scheduler del sistema para priorizar el juego.",
+      "tooltip": "Activa AutoGameMode en el registry. Desactiva Game Bar para liberar recursos."
+    },
+    "preset": "Preset",
+    "select_preset": "Seleccionar preset",
+    "create_preset": "Crear nuevo...",
+    "delete_preset": "Eliminar Preset",
+    "title": "Modo Gaming",
+    "max_presets": "(max 3)",
+    "status": {
+      "active": "MODO GAMING ACTIVO",
+      "processing": "PROCESANDO...",
+      "idle": "ENGINE TUNING",
+      "status_active": "MODO GAMING ACTIVO",
+      "status_idle": "SELECCION DE TUNING"
+    },
+    "selected": "seleccionada",
+    "selecteds": "seleccionadas",
+    "applied": "aplicadas",
+    "warning_errors": "no pudieron aplicarse. El resto esta activo.",
+    "info_changes": "Los cambios se revierten automaticamente al cerrar la aplicacion.",
+    "restore": {
+      "title": "Restaurar configuracion original?",
+      "description": "Esto revertira todos los cambios activos y restaurara la configuracion previa del sistema.",
+      "cancel": "Cancelar",
+      "confirm": "Si, restaurar"
+    },
+    "new_preset": {
+      "title": "Crear Nuevo Preset",
+      "description": "Guardar la configuracion actual como preset:",
+      "name_label": "Nombre del Preset",
+      "current_config": "Configuracion actual:",
+      "cancel": "Cancelar",
+      "save": "Guardar Preset",
+      "max_presets_error": "Maximo 3 presets permitidos"
+    },
+    "edit_preset": {
+      "title": "Editar Preset",
+      "description": "Modificar nombre y configuracion del preset:",
+      "name_label": "Nombre del Preset",
+      "config_label": "Configuracion:",
+      "cancel": "Cancelar",
+      "save": "Guardar Cambios"
+    },
+    "preset_created": "Preset creado correctamente",
+    "preset_deleted": "Preset eliminado",
+    "preset_updated": "Preset actualizado correctamente",
+    "error_creating_preset": "Error al crear preset",
+    "error_deleting_preset": "Error al eliminar preset",
+    "error_updating_preset": "Error al actualizar preset",
+    "activated_with_warnings": "Modo Gaming activado con advertencia(s)",
+    "activated_success": "Modo Gaming activado correctamente",
+    "activate_error": "No se pudo activar el Modo Gaming",
+    "apply_error": "Error inesperado al aplicar cambios",
+    "deactivating": "Desactivando...",
+    "deactivate_button": "Desactivar Modo Gaming",
+    "deactivated": "Modo Gaming desactivado",
+    "deactivate_error": "Error al desactivar el Modo Gaming",
+    "applying": "Aplicando...",
+    "apply_button": "Aplicar Modo Gaming",
+    "restoring": "Restaurando...",
+    "restore_button": "Restaurar configuracion original",
+    "restore_tooltip": "Restaurar configuracion original",
+    "no_backup": "No hay backup",
+    "restored_success": "Configuracion original restaurada correctamente",
+    "restore_error": "Error al restaurar la configuracion original",
+    "backup_created": "Configuracion original guardada"
+  },
+  "ram": {
+    "title": "Analisis de Memoria",
+    "usage": "Uso de RAM",
+    "physical_usage": "Consumo fisico",
+    "total": "RAM Total",
+    "system_status": "Estado del sistema",
+    "memory_breakdown": "Desglose de memoria",
+    "in_use": "En uso por procesos",
+    "cache": "Cache del sistema",
+    "available": "Disponible",
+    "swap": "Swap",
+    "no_configured": "No configurada",
+    "physical_slots": "Modulos fisicos",
+    "slot_prefix": "SLOT",
+    "status": {
+      "critical": "Memoria critica - cierra aplicaciones",
+      "warning": "Consumo moderado - estable por ahora",
+      "optimal": "Memoria optimizada - condiciones ideales"
+    },
+    "error_updating": "Error al actualizar historial global",
+    "sentinel_saved": "Configuracion del Centinela guardada con exito",
+    "standby_label": "Purga de Standby List",
+    "working_label": "Trim Working Sets",
+    "sentinel_auto": "Auto-Optimizacion Centinela",
+    "ipc_error": "IPC Bridge no disponible",
+    "cleaning": "Limpiando...",
+    "trimming": "Trimeando...",
+    "sentinel_optimized": "RAM optimizada por Centinela",
+    "quick_indicators": {
+      "active_ram": "RAM ACTIVA",
+      "standby_cache": "STANDBY CACHE"
+    },
+    "history": {
+      "title": "Historial de Acciones",
+      "empty": "Sin acciones registradas",
+      "pending": "Pendiente",
+      "success": "Completado",
+      "error": "Error",
+      "saved": "ahorrado",
+      "unit_mb": "MB",
+      "unit_gb": "GB"
+    },
+    "sentinel": {
+      "title": "Control Centinela",
+      "subtitle": "Optimizacion automatica cuando se exceeds el umbral",
+      "auto_optimize": "Auto-optimizacion",
+      "threshold": "Umbral de RAM (%)",
+      "validated": "Configuracion validada",
+      "not_validated": "No validado - haz clic para configurar",
+      "confirm": "Confirmar Configuracion",
+      "monitoring": "MONITOREANDO"
+    },
+    "operation_failed": "Fallo"
+  },
+  "close_dialog": {
+    "simple_title": "¿Cerrar Vortex Labs?",
+    "simple_body": "¿Estás seguro de que quieres cerrar la aplicación?",
+    "confirm_close": "Sí, cerrar",
+    "gaming_title": "MODO GAMING ACTIVO",
+    "gaming_body": "¿Qué deseas hacer al cerrar la aplicación?",
+    "maintain_desc": "Deja los ajustes de modo gaming activos en Windows",
+    "remove_desc": "Restaura los ajustes originales del sistema",
+    "gaming_footer": "Podrás volver a gestionar el modo gaming desde Configuración cuando abras la app de nuevo.",
+    "maintain": "Mantener",
+    "remove": "Quitar",
+    "error_title": "ERROR AL QUITAR MODO GAMING",
+    "error_body_default": "Se requieren permisos de administrador para quitar el modo gaming.",
+    "error_accept": "¿Aceptas los permisos para continuar?",
+    "retry": "Reintentar",
+    "force_close": "Forzar cerrar"
+  },
+  "cpu": {
+    "title": "Monitor de Procesador",
+    "totalLoad": "Carga Total",
+    "frequency": "Frecuencia actual",
+    "identification": "Identificación",
+    "manufacturer": "Fabricante",
+    "socket": "Socket",
+    "virtualization": "Virtualización",
+    "enabled": "Habilitada",
+    "disabled": "Deshabilitada",
+    "cores": {
+      "title": "Núcleos y caché",
+      "physical": "Núcleos físicos",
+      "logical": "Hilos lógicos",
+      "boost": "Frecuencia boost"
+    },
+    "cache": {
+      "l2": "Caché L2",
+      "l3": "Caché L3"
+    },
+    "threads": {
+      "distribution": "Distribución por hilos lógicos",
+      "detected": "hilos detectados",
+      "prefix": "H"
+    }
+  },
+  "disk": {
+    "title": "Unidades de Almacenamiento",
+    "card": {
+      "unit": "Unidad",
+      "local_disk": "Local Disk",
+      "usage": "Uso",
+      "free": "libres",
+      "read": "LECTURA",
+      "write": "ESCRITURA",
+      "temp": "TEMP",
+      "health": "SALUD"
+    }
+  },
+  "optimizer": {
+    "title": "OPTIMIZACION DE SISTEMA",
+    "configure": "Configurar",
+    "loading": "Cargando...",
+    "tools": {
+      "ram": {
+        "title": "Limpiar RAM",
+        "desc": "Libera procesos en segundo plano",
+        "details": "Purga el Standby List de Windows"
+      },
+      "temp": {
+        "title": "Archivos Temporales",
+        "desc": "Elimina basura del sistema",
+        "details": "Limpia carpetas Temp y Prefetch"
+      },
+      "game": {
+        "title": "Modo Gaming",
+        "desc": "Prioriza recursos de hardware",
+        "details": "Ajusta el plan de energia"
+      }
+    }
+  },
+  "maintenance": {
+    "loading": "Cargando protocolos de mantenimiento...",
+    "kpis": {
+      "completed": "Completados",
+      "overdue": "Vencidos",
+      "upcoming": "Proximos (7 dias)"
+    },
+    "hero": {
+      "priority_action": "ACCION PRIORITARIA RECOMENDADA",
+      "start_protocol": "INICIAR PROTOCOLO",
+      "immediate_attention": "REQUIRES ATENCION INMEDIATA",
+      "days_to_expiry": "dias para el vencimiento"
+    },
+    "title": "Protocolos de Mantenimiento",
+    "nivel": {
+      "facil": "Facil",
+      "medio": "Medio",
+      "dificil": "Dificil"
+    },
+    "frequency": "Cada",
+    "status": {
+      "completed": "Completado",
+      "overdue": "Mantenimiento vencido",
+      "expiring": "Proximo a vencer",
+      "days_remaining": "dias restantes",
+      "days_overdue": "dias vencido"
+    },
+    "detail": {
+      "frequency_label": "Cada",
+      "completed_label": "Completado",
+      "next_label": "Proximo",
+      "steps_completed": "pasos completados",
+      "saving": "Guardando...",
+      "security_warnings": "ADVERTENCIAS DE SEGURIDAD",
+      "steps_to_follow": "Pasos a seguir",
+      "maintenance_complete": "Mantenimiento Completado",
+      "last_completion": "Ultima completacion",
+      "frequency_val": "Cada",
+      "schedule_next": "Se registrara la fecha de hoy y se programara el siguiente aviso.",
+      "finalize_button": "FINALIZAR Y AGENDAR PROXIMO",
+      "reset_protocol": "REINICIAR PROTOCOLO",
+      "reset_confirm": "Estas seguro de reiniciar este mantenimiento? Se perdera el progreso actual y la fecha de completado.",
+      "complete_all_steps": "Completa todos los pasos",
+      "steps_remaining": "pasos para finalizar",
+      "video_guides": "Guias en Video",
+      "open_youtube": "Abrir en YouTube"
+    },
+    "tasks": {
+      "limpieza_basica": {
+        "nombre": "Limpieza Básica",
+        "descripcion": "Limpieza superficial del exterior del equipo, teclado, pantalla y ventiladores visibles sin abrir el gabinete.",
+        "frecuencia": "2 meses",
+        "advertencias": {
+          "0": "Apaga completamente el equipo antes de comenzar",
+          "1": "No uses líquidos directamente sobre el equipo",
+          "2": "Usa solo paños de microfibra ligeramente húmedos"
+        },
+        "checklist": {
+          "0": "Apagar y desenchufar el equipo",
+          "1": "Limpiar periféricos con aire comprimido",
+          "2": "Limpiar pantalla con paño de microfibra",
+          "3": "Limpiar carcasas externas",
+          "4": "Limpiar puertos USB con aire comprimido"
+        },
+        "videos": {
+          "0": { "titulo": "Limpieza monitor" },
+          "1": { "titulo": "Limpieza externa de laptop" },
+          "2": { "titulo": "Limpieza mousepad" },
+          "3": { "titulo": "Limpieza teclado y mouse" }
+        }
+      },
+      "limpieza_interna": {
+        "nombre": "Limpieza Interna",
+        "descripcion": "Limpieza profunda del interior del equipo, eliminando polvo de componentes internos, ventiladores y disipadores.",
+        "frecuencia": "6 meses",
+        "advertencias": {
+          "0": "Desconecta completamente la energía antes de abrir el equipo",
+          "1": "Descarga la electricidad estática tocando una superficie metálica",
+          "2": "No toques directamente los componentes electrónicos con las manos",
+          "3": "Sujeta los ventiladores al limpiar para evitar que giren libremente"
+        },
+        "checklist": {
+          "0": "Apagar y desenchufar el equipo",
+          "1": "Descargar electricidad estática",
+          "2": "Abrir el gabinete lateral",
+          "3": "Tomar foto de la configuración para referencia",
+          "4": "Aplicar aire comprimido en ventiladores",
+          "5": "Limpiar polvo de la placa madre",
+          "6": "Limpiar ventiladores del procesador y GPU",
+          "7": "Limpiar filtros de polvo si existen",
+          "8": "Verificar que todos los cables estén bien conectados",
+          "9": "Cerrar el gabinete"
+        },
+        "videos": {
+          "0": { "titulo": "Limpieza interna de PC de escritorio" },
+          "1": { "titulo": "Limpieza interna de Laptop" },
+          "2": { "titulo": "Mantenimiento completo a pc de escritorio" },
+          "3": { "titulo": "Cómo usar aire comprimido para limpiar PC" }
+        }
+      },
+      "pasta_termica": {
+        "nombre": "Cambio de Pasta Térmica",
+        "descripcion": "Reemplazo de la pasta térmica entre el procesador y su disipador para mejorar la transferencia de calor.",
+        "frecuencia": "12 meses",
+        "advertencias": {
+          "0": "Esta tarea requiere experiencia previa abriendo equipos",
+          "1": "Asegúrate de tener pasta térmica de calidad",
+          "2": "Nunca enciendas el equipo sin el disipador instalado",
+          "3": "Limpia completamente la pasta térmica antigua antes de aplicar la nueva",
+          "4": "Aplica solo una cantidad del tamaño de un grano de arroz"
+        },
+        "checklist": {
+          "0": "Apagar y desenchufar el equipo",
+          "1": "Descargar electricidad estática",
+          "2": "Abrir el gabinete",
+          "3": "Desconectar el ventilador del procesador",
+          "4": "Retirar el disipador con cuidado",
+          "5": "Limpiar pasta térmica antigua con alcohol isopropílico",
+          "6": "Aplicar nueva pasta térmica en el centro del procesador",
+          "7": "Reinstalar el disipador firmemente",
+          "8": "Conectar el ventilador del procesador",
+          "9": "Encender y verificar temperaturas en BIOS"
+        },
+        "videos": {
+          "0": { "titulo": "Cambio de pasta térmica con all in one" },
+          "1": { "titulo": "Cambio de pasta térmica con ventilador tradicional" },
+          "2": { "titulo": "Cambio de pasta térmica en Laptop" }
+        }
+      },
+      "optimizacion_software": {
+        "nombre": "Optimización de drivers",
+        "descripcion": "Actualización y optimización de controladores de hardware para mejorar el rendimiento y la estabilidad del sistema.",
+        "frecuencia": "3 meses",
+        "advertencias": {
+          "0": "Crea un punto de restauración antes de hacer cambios importantes",
+          "1": "Asegúrate de descargar controladores solo desde sitios oficiales",
+          "2": "Investiga antes de desinstalar programas"
+        },
+        "checklist": {
+          "0": "Crear punto de restauración del sistema",
+          "1": "Identificar componentes de hardware",
+          "2": "Visitar sitio oficial del fabricante",
+          "3": "Descargar controladores más recientes",
+          "4": "Instalar controladores siguiendo instrucciones",
+          "5": "Reiniciar el equipo después de la instalación",
+          "6": "Verificar que el hardware funcione correctamente",
+          "7": "Eliminar controladores antiguos si es necesario"
+        },
+        "videos": {
+          "0": { "titulo": "Optimizar con INTEL" },
+          "1": { "titulo": "Optimizar con AMD" },
+          "2": { "titulo": "Optimizar con NVIDIA" }
+        }
+      },
+      "backup_datos": {
+        "nombre": "Copia de Seguridad",
+        "descripcion": "Respaldo de archivos importantes en dispositivos externos o servicios en la nube para prevenir pérdida de datos.",
+        "frecuencia": "1 mes",
+        "advertencias": {
+          "0": "Verifica que la copia se completó correctamente",
+          "1": "Mantén al menos 2 copias de archivos críticos",
+          "2": "Considera usar la regla 3-2-1: 3 copias, 2 medios diferentes, 1 fuera del sitio"
+        },
+        "checklist": {
+          "0": "Identificar archivos importantes",
+          "1": "Conectar disco externo o verificar espacio en nube",
+          "2": "Copiar documentos personales",
+          "3": "Copiar fotos y videos",
+          "4": "Copiar proyectos de trabajo",
+          "5": "Verificar que los archivos se abran correctamente",
+          "6": "Etiquetar el backup con fecha"
+        },
+        "videos": {
+          "0": { "titulo": "Cómo hacer backup con disco externo" },
+          "1": { "titulo": "Backup de Windows Image 10/11" },
+          "2": { "titulo": "Backup de archivos usando Google Drive" },
+          "3": { "titulo": "Backup de archivos usando Microsoft OneDrive" }
+        }
+      }
+    }
+  },
+  "home": {
+    "welcome": "Bienvenido",
+    "engineer": "Experto en PC",
+    "subtitle": "Mantech Labs esta recolectando datos en tiempo real de tu estacion de trabajo.",
+    "panels": {
+      "status_summary": "RESUMEN DE ESTADO",
+      "cpu": "CPU",
+      "ram": "RAM",
+      "disk": "DISCO (SISTEMA)",
+      "os": "SISTEMA OPERATIVO",
+      "windows": "Windows Desktop Environment",
+      "kernel": "Kernel",
+      "resources": "RECURSOS LIBERADOS",
+      "temp": "Temp",
+      "total_accumulated": "Total acumulado durante todas las limpiezas",
+      "logical_status": "ESTADO LÓGICO"
+    },
+    "status": {
+      "critical_text": "CRÍTICO - Recursos agotados",
+      "critical_detail": "Se recomienda cerrar procesos pesados para evitar cuellos de botella.",
+      "warning_text": "ADVERTENCIA - carga elevada",
+      "warning_detail": "El sistema esta operando cerca de su limite nominal.",
+      "stable_text": "ESTABLE - Operacion optima",
+      "stable_detail": "Escaneando anomalias... No se detectan irregularidades."
+    }
+  }
+}
