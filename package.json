@@ -1,6 +1,6 @@
 {
   "name": "mantech-labs",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Electron app for Windows optimization - RAM cleanup, temporary file cleanup, gaming mode, and system maintenance via PowerShell scripts.",
   "main": "./out/main/index.js",
   "author": "Roberto Coria",
