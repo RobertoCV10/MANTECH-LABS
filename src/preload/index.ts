@@ -96,6 +96,24 @@ const api = {
     return () => ipcRenderer.removeListener('navigate-to-settings', subscription)
   },
 
+  // --- AUTO-UPDATER ---
+  onUpdateAvailable: (callback: (data: { version: string; releaseDate: string }) => void) => {
+    const subscription = (_event, data) => callback(data)
+    ipcRenderer.on('update-available', subscription)
+    return () => ipcRenderer.removeListener('update-available', subscription)
+  },
+
+  onUpdateDownloaded: (callback: (data: { version: string }) => void) => {
+    const subscription = (_event, data) => callback(data)
+    ipcRenderer.on('update-downloaded', subscription)
+    return () => ipcRenderer.removeListener('update-downloaded', subscription)
+  },
+
+  checkForUpdates: () => ipcRenderer.invoke('check-for-updates'),
+  downloadUpdate: () => ipcRenderer.invoke('download-update'),
+  installUpdate: () => ipcRenderer.invoke('install-update'),
+  getAppVersion: () => ipcRenderer.invoke('get-app-version'),
+
 }
 
 if (process.contextIsolated) {
